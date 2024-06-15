@@ -37,6 +37,7 @@ const props = defineProps({
 
 <style scoped>
 .title{
+  border-radius: 10px 10px 0px 0px;
   background-color: aquamarine;
   padding:.5rem ;
   font-family: "Ubuntu";
@@ -53,7 +54,8 @@ const props = defineProps({
 .article-container {
   display: flex;
   flex-direction: column; 
-  border: 1px solid red;
+  border: 1px solid ;
+  border-radius:10px;
   margin-block:15px ;
 }
 
