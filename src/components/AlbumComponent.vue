@@ -1,16 +1,16 @@
 <template>
-  <section class="article-section">
+  <section class="section">
       <article v-for="(album, index) in albums" :key="index" class="article-container">
-        <h2>{{ album.genre }}</h2>
-        <div>
-          <RouterLink to="#">{{ album.title }}</RouterLink>
+        <h2 class="title">{{ album.genre }}</h2>
+        <div class="flex-col">
+          <RouterLink to="#" class="router-class">{{ album.title }}</RouterLink>
           <p class="text">
             {{ album.description }}
           </p>
         </div>
         <div>
-          <ul>
-            <li v-for="(track, index) in album.tracks" :key="index" >{{ track.title }}</li>
+          <ul class="flex-row">
+            <li v-for="( tag, index) in album.tags" :key="index" class="ul-items" >{{ tag }}</li>
           </ul>
         </div>
   
@@ -36,37 +36,58 @@ const props = defineProps({
 </script>
 
 <style scoped>
+.title{
+  background-color: aquamarine;
+  padding:.5rem ;
+  font-family: "Ubuntu";
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.section {
+  padding: 1rem;
+}
+
 .article-container {
-  /* margin-inline:1rem;
-  padding-block: 2rem; */
-    background: white;
-    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
-	            0 8px 0 -3px #f6f6f6,
-	            0 9px 1px -3px rgba(0, 0, 0, 0.2),
-	            0 16px 0 -6px #f6f6f6,
-	            0 17px 2px -6px rgba(0, 0, 0, 0.2); */
-    /* border: 1px solid rgb(25, 0, 255); */
-    margin-block:2rem;
-    padding-inline: .3rem;
-    padding-block: .5rem;
-   
-
-}
-.article-container > h2 {
-  background-color:var(--secondColor)
+  display: flex;
+  flex-direction: column; 
+  border: 1px solid red;
+  margin-block:15px ;
 }
 
 
-ul {
-  
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
+.ul-items {
+  padding-block: .5rem;
+  padding-inline: 1rem;
+  background-color:rgb(12, 126, 88);
+  color: white;
+  font-family: "Ubuntu";
+}
 li {
   list-style: none;
   margin: .3rem;
 }
 .text {
-    border: 1px solid;
+  padding: .5rem;
+    
+}
+.router-class {
+  color: black;
+  
+  padding: .5rem;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+}
+.router-class:hover{
+  text-decoration: underline;
 }
 
 </style>

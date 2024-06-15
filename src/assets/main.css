@@ -8,6 +8,22 @@
   --bodyBgc: #f9f9f9;
 }
 
+@font-face {
+  font-family: "Playwrite România";
+  src: url("../assets/img/PlaywriteRO-Regular.ttf");
+  font-weight: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../assets/img/Ubuntu-Bold.ttf");
+  font-weight: normal;
+  font-weight: normal;
+}
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +34,7 @@ body {
   background-color: var(--bodyBgc);
 
 }
+
 
 #app {
   max-width: 1280px;
