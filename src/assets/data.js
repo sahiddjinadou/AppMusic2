@@ -20,7 +20,7 @@ const albums = [
           { "trackNumber": 10, "title": "La Goualante du pauvre Jean", "duration": "2:30" }
         ],
         "coverImage": "https://example.com/piaf-cover.jpg",
-        "description": "Un album iconique d'Édith Piaf contenant ses plus grands succès."
+        "description": "Un album iconique d'Édith Piaf contenant ses plus grands succès.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Ne me quitte pas",
@@ -44,7 +44,7 @@ const albums = [
           { "trackNumber": 11, "title": "Le Plat Pays", "duration": "2:51" }
         ],
         "coverImage": "https://example.com/brel-cover.jpg",
-        "description": "Un chef-d'œuvre de Jacques Brel avec des chansons intemporelles."
+        "description": "Un chef-d'œuvre de Jacques Brel avec des chansons intemporelles.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Mistral Gagnant",
@@ -69,7 +69,7 @@ const albums = [
           { "trackNumber": 12, "title": "Chanson pour Pierrot", "duration": "3:30" }
         ],
         "coverImage": "https://example.com/renaud-cover.jpg",
-        "description": "Un album de Renaud avec des chansons profondément ancrées dans la culture française."
+        "description": "Un album de Renaud avec des chansons profondément ancrées dans la culture française.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Je te promets",
@@ -94,7 +94,7 @@ const albums = [
           { "trackNumber": 12, "title": "Diego, libre dans sa tête", "duration": "3:45" }
         ],
         "coverImage": "https://example.com/johnny-cover.jpg",
-        "description": "Un album incontournable de Johnny Hallyday."
+        "description": "Un album incontournable de Johnny Hallyday.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Bleu Noir",
@@ -119,7 +119,7 @@ const albums = [
           { "trackNumber": 12, "title": "Désobéissance", "duration": "5:14" }
         ],
         "coverImage": "https://example.com/farmer-cover.jpg",
-        "description": "Un album marquant de Mylène Farmer."
+        "description": "Un album marquant de Mylène Farmer.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Chocolat",
@@ -142,7 +142,7 @@ const albums = [
           { "trackNumber": 10, "title": "Rue de la paix", "duration": "4:58" }
         ],
         "coverImage": "https://example.com/zazie-chocolat-cover.jpg",
-        "description": "Un album emblématique de Zazie, mélange de pop rock et de poésie."
+        "description": "Un album emblématique de Zazie, mélange de pop rock et de poésie.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Le Secret",
@@ -172,7 +172,7 @@ const albums = [
           { "trackNumber": 17, "title": "Growing Wings", "duration": "4:06" }
         ],
         "coverImage": "https://example.com/lara-fabian-le-secret-cover.jpg",
-        "description": "Un album introspectif et puissant de Lara Fabian, mêlant émotions et poésie."
+        "description": "Un album introspectif et puissant de Lara Fabian, mêlant émotions et poésie.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Les Failles",
@@ -196,7 +196,7 @@ const albums = [
           { "trackNumber": 11, "title": "Lueur", "duration": "3:20" }
         ],
         "coverImage": "https://example.com/pomme-les-failles-cover.jpg",
-        "description": "Un album délicat et introspectif de Pomme, explorant les thèmes de la vulnérabilité et de la résilience."
+        "description": "Un album délicat et introspectif de Pomme, explorant les thèmes de la vulnérabilité et de la résilience.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Les jours heureux",
@@ -220,7 +220,7 @@ const albums = [
           { "trackNumber": 11, "title": "Fanny Ardant et moi", "duration": "3:47" }
         ],
         "coverImage": "https://example.com/vincent-delerm-les-jours-heureux-cover.jpg",
-        "description": "Un album poétique et intimiste de Vincent Delerm, explorant des moments de bonheur simple."
+        "description": "Un album poétique et intimiste de Vincent Delerm, explorant des moments de bonheur simple.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Tout oublier",
@@ -245,7 +245,7 @@ const albums = [
           { "trackNumber": 12, "title": "Le temps fera les choses", "duration": "3:12" }
         ],
         "coverImage": "https://example.com/angele-tout-oublier-cover.jpg",
-        "description": "Un album vibrant et moderne d'Angèle, avec des chansons qui capturent les complexités de la vie contemporaine."
+        "description": "Un album vibrant et moderne d'Angèle, avec des chansons qui capturent les complexités de la vie contemporaine.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Le présent d'abord",
@@ -270,7 +270,7 @@ const albums = [
           { "trackNumber": 12, "title": "Pour tourner la page", "duration": "3:40" }
         ],
         "coverImage": "https://example.com/florent-pagny-le-present-dabord-cover.jpg",
-        "description": "Un album inspirant de Florent Pagny, axé sur la présence et l'importance de vivre l'instant."
+        "description": "Un album inspirant de Florent Pagny, axé sur la présence et l'importance de vivre l'instant.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Paradis",
@@ -295,7 +295,7 @@ const albums = [
           { "trackNumber": 12, "title": "Quand je marche (version acoustique)", "duration": "4:08" }
         ],
         "coverImage": "https://example.com/ben-mazue-paradis-cover.jpg",
-        "description": "Un album touchant et poétique de Ben Mazué, explorant des thèmes de l'amour, de la perte et de la résilience."
+        "description": "Un album touchant et poétique de Ben Mazué, explorant des thèmes de l'amour, de la perte et de la résilience.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       },
       {
         "title": "Amour chien fou",
@@ -320,7 +320,7 @@ const albums = [
           { "trackNumber": 12, "title": "L'envie", "duration": "4:35" }
         ],
         "coverImage": "https://example.com/serge-lama-amour-chien-fou-cover.jpg",
-        "description": "Un album puissant et émouvant de Serge Lama, explorant l'amour sous toutes ses formes."
+        "description": "Un album puissant et émouvant de Serge Lama, explorant l'amour sous toutes ses formes.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto neque culpa quasi quod mollitia. Delectus totam hic voluptates, officia blanditiis consequuntur dolore. Ipsam non corporis saepe error sunt aut, ut vel. Distinctio itaque possimus ex earum quidem illum, at eum, officiis rerum perferendis cum, pariatur sint tenetur voluptate vitae sapiente molestias? Deleniti inventore debitis cumque, dicta illum consequatur saepe quos recusandae hic repellendus. Quibusdam optio maxime aperiam minus magnam ea ipsa doloremque iste dolorem est, esse saepe porro, incidunt excepturi dolorum beatae! Laboriosam assumenda accusantium libero aut atque ipsum! Tenetur, eum temporibus sit vitae facere nulla minus pariatur at deleniti eos illum, laboriosam a culpa aspernatur, iure debitis dolorem porro non aut omnis optio saepe. Commodi est totam perspi"
       }
       
       
