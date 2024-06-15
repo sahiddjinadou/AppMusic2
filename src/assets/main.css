@@ -1,18 +1,37 @@
 @import './base.css';
 
+:root {
+  /* couleurs */
+  --fistColor: #1d4ed8;
+  --secondColor: #e9d5ff;
+  --whiteColor: white;
+  --bodyBgc: #f9f9f9
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bodyBgc);
+
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  /* color: hsla(160, 100%, 37%, 1); */
+  color: white;
   transition: 0.4s;
   padding: 3px;
+  font-weight: bold;
 }
 
 @media (hover: hover) {
@@ -22,7 +41,7 @@ a,
 }
 
 @media (min-width: 1024px) {
-  body {
+  /* body {
     display: flex;
     place-items: center;
   }
@@ -31,5 +50,13 @@ a,
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+  } */
+
+  a {
+    color: greenyellow;
+    font-size: 1.3rem;
+    padding: 1rem;
+
+
   }
 }
