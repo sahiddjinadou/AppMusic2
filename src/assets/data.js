@@ -1,4 +1,4 @@
-const albums = [
+export const albums = [
       {
         "title": "La Vie en Rose",
         "artist": "Édith Piaf",
