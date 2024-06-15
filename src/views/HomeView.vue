@@ -1,6 +1,3 @@
-<script setup>
-</script>
-
 <template>
   <main>
     <section>
@@ -44,6 +41,15 @@
     </article>
   </main>
 </template>
+
+
+<script setup>
+import data from '@/assets/data'
+
+console.log(data);
+
+</script>
+
 
 <style scoped>
 ul {
