@@ -110,7 +110,9 @@ const transformTitle = (title) => {
   gap: 10px;
   border: 1px dotted green;
   border-radius: 10px;
-  margin-block: 15px;
+  margin: 15px ;
+  width: 800px;
+  
 }
 
 

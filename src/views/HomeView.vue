@@ -102,7 +102,7 @@ const upAlbum = (event)=>{
 @media (min-width: 600px) {
   .grille{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 100px;
   }
   /* .grille{
