@@ -12,7 +12,7 @@
         </div>
         
         <div>
-            <p>00 h 00 min 00</p>
+            <Chronometre />
         </div>
 
     </div>
@@ -20,12 +20,13 @@
 
 <script setup lang='ts'>
 import { RouterLink, RouterView } from 'vue-router';
-
+import Chronometre from "./Chronometre.vue";
 
 </script>
 
 
 <style scoped>
+
 .navLogo-container {
     width: 100%;
     height: 6vh;
