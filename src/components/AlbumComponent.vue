@@ -107,7 +107,8 @@ const transformTitle = (title) => {
 .article-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
+  gap: 10px;
+  border: 1px dotted green;
   border-radius: 10px;
   margin-block: 15px;
 }

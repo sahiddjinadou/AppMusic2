@@ -1,33 +1,21 @@
 <template>
-  <aside>
+  <aside class="aside1">
     <div>
-      <div>
+      <div class="metadata">
         <h2 class="title">{{ album?.title }}</h2>
         <p> <strong>{{ album?.artist }}</strong></p>
         <button @click="sendProgress" class="btn-play">
-          <span> Play</span>
-          <span>
-            <svg id="blue_copy" style="enable-background:new 0 0 100 100;" >
-              <g id="Layer_4_copy">
-                <path
-                  d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z" />
-                <path
-                  d="M69.981,47.977l-38.625-22.3c-0.233-0.134-0.474-0.21-0.716-0.259l37.341,21.559c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-0.349,0.201-0.716,0.288-1.078,0.301c0.656,0.938,1.961,1.343,3.078,0.699l38.625-22.3   C71.538,51.124,71.538,48.876,69.981,47.977z" />
-                <path
-                  d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046   l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7C27.852,25.902,29.798,24.778,31.356,25.677z"
-                  style="fill:none;stroke:#000000;stroke-miterlimit:10;" />
-              </g>
-            </svg>
-          </span>
+          <p> play</p>
+          <p class="poster"> <img src="../assets/img/play_btn.png" alt="play"></p>          
         </button>
       </div>
       <img :src="album?.coverImage" alt="image">
     </div>
   
     <div class="list">
-      <h3> List of song </h3>
+      <h3> List of songs </h3>
       <ul>
-        <li v-for="track in album?.tracks" :key="track.trackNumber" class="flex">
+        <li v-for="track in album?.tracks" :key="track.trackNumber" class="flex song">
           <p>{{ track.title }}</p>
           <p>{{ track.duration }}</p>
         </li>
@@ -54,22 +42,90 @@ const sendProgress = () => {
 </script>
 
 <style scoped>
+
+.poster {
+  width: 30px;
+  height: 30px;
+}
+[alt="image"] {
+  width: 100%;
+  height: 100%;
+}
+.list h3 {
+  background-color: #3333ee;
+  padding: 1rem;
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 20px;
+}
+.song p:first-child {
+  font-family: "Playwrite România";
+  font-weight: bold;
+}
+.aside1 {
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius:10px ;
+  height: 60%;
+  width: 750px;
+  box-shadow: 5px 5px 10px;
+}
+.song:hover{
+  background-color: beige;
+  
+}
+.song {
+  padding: .5rem 1rem;
+}
+.aside1 >:first-child {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
 .flex {
   display: flex;
   justify-content: space-between;
 }
 
 .btn-play{
-background-color: red;
+background-color: rgba(70, 122, 233, 0.856);
 border: none;
 display: flex;
-}
-.btn-play >:first-child,
-.btn-play >:last-child
-{
-  border:1px solid
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding-inline: 1rem;
+padding-block: .4rem;
+border-radius: 10px;
 
 }
+.btn-play:hover{
+  background-color: rgba(0, 0, 255, 0.884);
+}
+
+.btn-play> :first-child{
+  font-family: "Ubuntu";
+  color:white;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+[alt= "play"] {
+  border: 1px solid;
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
 strong{
   font-family: "Playwrite România";
   font-size: 21px;
