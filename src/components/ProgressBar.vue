@@ -2,9 +2,9 @@
     <div v-if="showBar">
         <div class="progress-container" >
             <div class="ProgressBar" :style="`width:${increment}%`"> </div>
-            <div class="base">{{ album?.artist }} .Titre: {{album.title}}</div>
+            <div class="base"><strong class="strong">Artiste :</strong> {{ album?.artist }} . <strong class="strong">Titre: </strong>{{album.title}}</div>
         </div>
-        <div>{{ currentMorceau}}/{{ nbrMorceaux }} </div>
+        <div class="strong">{{ currentMorceau}}/{{ nbrMorceaux }} </div>
     </div>
 </template>
 
@@ -75,6 +75,10 @@ watch(() => props.album, (newValue, oldValue) => {
 </script>
 
 <style scoped>
+.strong{
+    font-weight: 800;
+    font-size: 15px;
+}
 .progress-container {
     position: relative;
     border-radius: 20px;
