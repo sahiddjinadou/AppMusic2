@@ -25,18 +25,21 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, watch } from "vue";
 
 const props = defineProps({
-  album: Object
+  album: Object,
 });
 
-const canShowprogressBar = ref(false)
+
+
+const canShowprogressBar = ref(true)
 
 const emit = defineEmits(["progress"]);
 
 const sendProgress = () => {
-  emit("progress", canShowprogressBar)
+  emit("progress", canShowprogressBar.value)
+  
 }
 
 </script>

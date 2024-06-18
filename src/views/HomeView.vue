@@ -1,35 +1,52 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import data from '@/assets/data';
 import AlbumComponent from '@/components/AlbumComponent.vue';
+import ProgressBar from '@/components/ProgressBar.vue';
 import ContenuAlbumComponent  from "@/components/ContenuAlbumComponent.vue";
 
 //Notre tableau contenant les albums
 const albums = data;
-
+const showProgress = ref(false)
 const showDetails = ref(false)
 
 const upShowDetails = (event)=>{
   showDetails.value = event
 }
 
-const oneAlbum = ref()
+const oneAlbum = ref("")
 const upAlbum = (event)=>{
   oneAlbum.value = event
 }
+const oneAlbumtoPogress = ref({})
+
+const progressState = (event)=>{
+  showProgress.value = event
+  oneAlbumtoPogress.value = oneAlbum.value
+
+  console.log(showProgress.value);
+  console.log(oneAlbumtoPogress.value);
+}
+
 </script>
 
 <template>
   <main class="main-container">
     <div class="grille">
       <!-- Details -->
-      <ContenuAlbumComponent  v-if="showDetails" :album="oneAlbum"/>
+      <ContenuAlbumComponent  v-if="showDetails" :album="oneAlbum" @progress = "progressState" :showProgress="showProgress "/>
       <!-- contenues -->
       <div>
         <section>
-          <form class="form" >
-            <input type="search" name="" id="">
-            <input type="submit"  class="button-83" value="Rechercher">
+          <form  >
+            <!-- Bar de progression -->
+           
+             <ProgressBar :album = "oneAlbumtoPogress" :stateVisible = "showProgress"/>
+           
+            <div class="form">
+              <input type="search" name="" id="">
+              <input type="submit"  class="button-83" value="Rechercher">
+            </div>
           </form>
           <h1>Page principale Album Music</h1>
         </section>
