@@ -10,13 +10,13 @@
 
 @font-face {
   font-family: "Playwrite România";
-  src: url("../assets/img/PlaywriteRO-Regular.ttf");
+  src: url("../assets/fonts/PlaywriteRO-Regular.ttf");
   font-weight: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: "Ubuntu";
-  src: url("../assets/img/Ubuntu-Bold.ttf");
+  src: url("../assets/fonts/Ubuntu-Bold.ttf");
   font-weight: normal;
   font-weight: normal;
 }
