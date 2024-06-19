@@ -1,28 +1,33 @@
 <template>
-    <div class="login-container">
+    <div class="login-container flex">
         <form action="">
+            <div>
+                <label for="lname" >Nom d'utilisateur</label>
+                <input type="text" name="" id="lname" placeholder="Entrer un nom d'utilisateur">
+            </div>
             <div>
                 <label for="">Adresse Email</label>
                 <input type="email" name="" id="" placeholder="Entrer votre adresse mail">
             </div>
             <div>
-                <label for="">Mot de passe</label>
-                <input type="password" name="" id="" placeholder="Entrer votre mot de passe">
+                <label for="passw">Mot de passe</label>
+                <input type="password" name="" id="passw" placeholder="Entrer votre mot de passe">
             </div>
             <div>
-                <input type="checkbox" name="" id="">
-                <label for="">Rester connecter</label>
+                <label for="confirm">Confirmer votre mot de passe</label>
+                <input type="password" name="" id="confirm" placeholder="Confirmer votre mot de passe">
             </div>
             <div class="btnContainer flex">
                 <div>
-                    <input type="submit" value="Se connecter">
+                    <input type="submit" value="S'inscrire">
                 </div>
                 <div>
-                    <RouterLink to="register">Créer un compte</RouterLink>
+                    <RouterLink to="login" type="button">Se connecter</RouterLink>
                 </div>
             </div>
         </form>
-        
+
+
     </div>
 </template>
 
@@ -33,11 +38,6 @@
 
 
 <style scoped>
-.flex {
-    display: flex;
-    align-items:center;
- 
-}
 a {
     color: inherit;
     font-size: 1rem;
@@ -50,10 +50,14 @@ a:hover {
 
   }
 
-.login-container {
+.flex {
     display: flex;
-    justify-content: center;
+    align-items:center;
+ 
+}
+.login-container {
     margin-block: 3rem;
+    justify-content: center;
     /* border: 1px solid red; */
     
 }
@@ -76,7 +80,8 @@ form > div {
 label {
     font-weight: 500;
 }
-input[type="email"], input[type="password"]{
+
+input[type="email"], input[type="password"], input[type="text"] {
     display: block;
     height: 2.2rem;
     width: 100%;
@@ -95,12 +100,11 @@ input[type="email"], input[type="password"]{
     border-radius: 25px;
     font-weight: bold;
 }
+
 .btnContainer {
     justify-content: space-between;
 
 }
-
-
 
 @media (min-width: 768px) {
     form {
