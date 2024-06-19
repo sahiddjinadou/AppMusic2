@@ -3,7 +3,7 @@
     <article v-for="(album, index) in albums" :key="index" class="article-container">
       <h2 class="title">{{ album.genre }}</h2>
       <div class="flex-col">
-        <RouterLink to="#" class="router-class">{{ album.title }}</RouterLink>
+        <RouterLink :to="transformTitle(album.title)" class="router-class">{{ album.title }}</RouterLink>
         <p class="text">
           {{ album.description }}
         </p>
@@ -54,6 +54,11 @@ const showDetails = (element)=>{
   emit("upState",detailsState.value)
 }
 
+const transformTitle = (title) => {
+  return title.split(" ").join("-");
+}
+
+
 
 </script>
 
@@ -102,9 +107,12 @@ const showDetails = (element)=>{
 .article-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
+  gap: 10px;
+  border: 1px dotted green;
   border-radius: 10px;
-  margin-block: 15px;
+  margin: 15px ;
+  width: 800px;
+  
 }
 
 
